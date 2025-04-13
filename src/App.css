@@ -1,0 +1,110 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f0f0;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #faf7f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(245, 237, 237, 0.05);
+  padding: 30px;
+}
+
+/* Header */
+h1 {
+  text-align:center; ;
+  margin-bottom: 20px;
+  color: #0e0f0f;
+}
+
+/* Vertical Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Search Input */
+.search-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.search-container input {
+  padding: 8px;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #ecf0f1;
+  color: #34495e;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #eef6fb;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .search-container {
+    text-align: left;
+  }
+
+  .search-container input {
+    width: 100%;
+  }
+}
