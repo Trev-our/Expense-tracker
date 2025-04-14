@@ -69,9 +69,8 @@ form button:hover {
 
 /* Search Bar */
 .search-container {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: flex-end;
+  margin-bottom: 10px;
+  
 }
 
 .search-container input {

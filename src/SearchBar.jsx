@@ -15,3 +15,5 @@ function SearchBar({ searchQuery, setSearchQuery }) {
 }
 
 export default SearchBar;
+
+  

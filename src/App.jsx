@@ -25,9 +25,11 @@ function App() {
   return (
     <div className="App" style={{ padding: '20px' }}>
       <h1>Expense Tracker</h1>
+
       <p>Track your expenses easily!</p>
+
       <p>Search for expenses by description or category:</p>
-      <SearchBar search={search} onSearch={setSearch} />
+      <SearchBar searchQuery={search} setSearchQuery={setSearch} />
       <ExpenseForm onAddExpense={handleAddExpense} />
       <ExpenseTable expenses={filteredExpenses} onDelete={handleDeleteExpense} />
     </div>
