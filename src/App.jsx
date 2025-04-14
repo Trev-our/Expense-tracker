@@ -27,7 +27,6 @@ function App() {
       <h1>Expense Tracker</h1>
       <p>Track your expenses easily!</p>
       <p>Search for expenses by description or category:</p>
-      <p>Type in the search bar below:</p>
       <SearchBar search={search} onSearch={setSearch} />
       <ExpenseForm onAddExpense={handleAddExpense} />
       <ExpenseTable expenses={filteredExpenses} onDelete={handleDeleteExpense} />

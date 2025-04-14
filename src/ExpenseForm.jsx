@@ -44,6 +44,7 @@ function ExpenseForm({ onAddExpense }) {
         onChange={handleChange}
         required
       />
+    
       <input
         type="text"
         name="category"
