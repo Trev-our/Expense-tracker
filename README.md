@@ -38,6 +38,9 @@ npm install
 
 Run the App
 npm run dev
+4. VERCEL
+
+expense-tracker-sepia-omega-14.vercel.app
 
 ✍️ How to Use
 1. Fill in the form with a description, category, amount, and date.
@@ -72,5 +75,4 @@ This project is open-source and available under the MIT License.
 
 🙌 Acknowledgments
 Inspired by personal finance tools and simple UX patterns for ease of use.
-
 
